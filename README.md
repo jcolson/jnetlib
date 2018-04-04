@@ -1,11 +1,12 @@
 # Java Network Library
-built to encompass such things as Cisco's TACACS protocol
+built to encompass such things as Cisco's TACACS protocol -- by @Jay_Colson
 
 ## Cisco TACACS protocol information
 
 
-```/**
- * @author Jay Colson, Copyright 2000
+```
+/**
+ * @author Jay_Colson, Copyright 2000
  * @version v0.10, 06/13/2000
  */
 packet construction:
@@ -47,5 +48,6 @@ Authentication CONTINUE packet
 	16 bits - data_len
 	8 bits - flags (0x01 abort)
 	? bits - user_msg (data user/NAS responds with to server_msg from REPLY)
-	? bits - data (used to send data for action and authen_type)```
+	? bits - data (used to send data for action and authen_type)
+```
 	
